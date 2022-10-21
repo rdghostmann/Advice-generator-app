@@ -1,7 +1,8 @@
 # Advice generator app solution
 
 ## Preview
-(./design/Web-capture.png)
+
+![Design preview for the Product preview card component coding challenge](./design/Web-capture.png)
 
 
 

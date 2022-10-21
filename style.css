@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Manrope, Arial, Helvetica, sans-serif;
+}
+
+:root {
+    /* Primary colors */
+    --light-cyan: hsl(193, 38%, 86%);
+    --neon-green: hsl(150, 100%, 66%);
+
+    /* Secondary colors */
+    --grayish-blue: hsl(217, 19%, 38%);
+    --dark-grayish-blue: hsl(217, 19%, 24%);
+    --dark-blue: hsl(218, 23%, 16%);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media only screen and (min-width: 375px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--dark-blue) ;
+
+    }
+
+    main {
+        width: 375px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        width: 90%;
+        background-color: var(--dark-grayish-blue) ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 16px;
+        border-radius: 10px;
+
+    }
+
+    .advice-No h5 {
+        color: hsl(150, 100%, 66%);
+        text-align: center;
+        letter-spacing: 0.25rem;
+        padding: 40px 0 20px 0;
+    }
+
+    .advice-text {
+        color: hsl(193, 38%, 86%);
+        font-size: 1.75rem;
+        font-weight: 800;
+        text-align: center;
+        margin-bottom: 27px;
+    }
+
+    .advice-divider {
+        background-image: url(images/pattern-divider-mobile.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center ;
+        width: 100%;
+        height: 25px;
+    }
+
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        place-items: center;
+        width: 80px;
+        height: 70px;
+        transform: translateY(33px);
+    }
+
+    .icon-dice {
+        width: 60px;
+        height: 60px;
+        border-radius: 50px;
+        background-color: hsl(150, 100%, 66%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        z-index: 10;
+    }
+
+    .glow{
+        width: 85px;
+        height: 85px;
+        border-radius: 50px;
+        position: absolute;
+        z-index: 5;
+        transition: all 0.5s;
+       
+    }
+
+    .glow:hover {
+        background-color: hsl(150, 100%, 66%);
+        filter: blur(20px);
+        cursor: pointer;
+    }
+
+}
+
+@media only screen and (min-width: 1400px) {
+      main {
+        width: 1440px;
+        height: 100vh;
+    }
+
+    .container {
+        width: 500px;
+        height: 280px;
+        background-color: var(--dark-grayish-blue) ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 16px;
+        border-radius: 10px;
+
+    }
+
+    .advice-divider {
+        background-image: url(images/pattern-divider-desktop.svg);
+    }
+
+    .btn {
+        transform: translateY(30px);
+    }
+
+}
+

@@ -1,6 +1,12 @@
 # Advice generator app solution
 
-### Links
+## Preview
+(./design/Web-capture.png)
+
+
+
+
+# Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [https://roaring-crepe-1d7c21.netlify.app/]

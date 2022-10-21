@@ -1,11 +1,5 @@
 # Advice generator app solution
 
-
-### Screenshot
-
-![](./Web-capture.jpg)
-
-
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
